@@ -6,11 +6,18 @@
   background-color: white;
   box-shadow: 0px 1px 2px 0px
     rgba(2.9999999999999982, 12.000000000000027, 37, 0.16);
+  max-width: 100vw;
+  overflow-x: hidden;
 
   .header-container {
     .name-logo {
       font-weight: bold;
       font-size: 24px;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        color: #68dcfc;
+      }
     }
 
     .links-container {
@@ -24,7 +31,7 @@
         transition: all 0.2s ease-in-out;
 
         &:hover {
-          color: #147efb;
+          color: #68dcfc;
         }
       }
     }
