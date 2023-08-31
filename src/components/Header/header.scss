@@ -1,0 +1,32 @@
+#root > nav {
+  padding: 15px 0px 15px 0px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: white;
+  box-shadow: 0px 1px 2px 0px
+    rgba(2.9999999999999982, 12.000000000000027, 37, 0.16);
+
+  .header-container {
+    .name-logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .links-container {
+      display: flex;
+      gap: 15px;
+      a {
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          color: #147efb;
+        }
+      }
+    }
+  }
+}
