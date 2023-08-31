@@ -1,0 +1,67 @@
+.contact-container {
+  padding: 100px 0px;
+  h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #68dcfc;
+    margin: 0 0 14px;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 14px;
+  }
+  .info-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: 60px;
+
+    .item {
+      display: flex;
+      gap: 20px;
+
+      .logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        color: #68dcfc;
+        transition: 150ms ease-in-out;
+
+        &:hover {
+          color: white;
+          background-color: #68dcfc;
+        }
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+          margin: 0;
+          color: black;
+        }
+
+        a {
+          color: #767676;
+          text-decoration: none;
+          font-size: 16px;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            color: #68dcfc;
+          }
+        }
+      }
+    }
+  }
+}
