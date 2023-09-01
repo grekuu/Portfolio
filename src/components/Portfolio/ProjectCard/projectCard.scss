@@ -56,6 +56,8 @@
       display: flex;
       gap: 8px;
       max-width: 80%;
+      flex-wrap: wrap;
+      justify-content: center;
       .skill {
         font-size: 18px;
         text-align: center;
@@ -63,6 +65,7 @@
         color: black;
         font-weight: bold;
         padding: 10px;
+        margin: 0;
       }
     }
 
@@ -85,6 +88,30 @@
 
         .icon {
           font-size: 26px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .project-card {
+    flex-direction: column;
+    .card-left {
+      width: 100%;
+    }
+    .card-right {
+      width: 100%;
+
+      h3 {
+        margin: 30px 0px 20px 0px;
+      }
+
+      .skills-box {
+        margin-bottom: 10px;
+
+        .skill {
+          font-weight: 500;
         }
       }
     }
