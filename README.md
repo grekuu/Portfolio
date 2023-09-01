@@ -1,27 +1,19 @@
-# React + TypeScript + Vite
+![image](https://github.com/grekuu/Portfolio/assets/91375853/2a9872bb-d221-4fa1-b5bc-c5d403f450ab)
+# About the project
+My portfolio website offers a streamlined online platform for users to easily connect and explore my work. Simplifying the process, this platform empowers users to effortlessly reach out and navigate my portfolio through a clean and intuitive design. Embrace a new era of seamless networking, putting connections and creativity at your fingertips.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👉 Live demo: <a href="https://portfolio-grekuu.vercel.app/">Click</a>
 
-Currently, two official plugins are available:
+## Built with:
+» React </br>
+» Typescript </br>
+» Sass </br>
+» Vite </br>
+» Aos </br>
+» Bootstrap </br>
+» react-icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Screenshots of the Project 📸
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Home Page 🏡
+![portfolio-grekuu vercel app_](https://github.com/grekuu/Portfolio/assets/91375853/18f63c94-6b9f-48c2-8541-a193bbfcd7f9)
