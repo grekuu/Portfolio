@@ -15,11 +15,13 @@
       font-weight: 500;
     }
     .socials {
+      display: flex;
       a {
         color: white;
         font-size: 30px;
         margin-right: 10px;
         transition: all 0.2s ease-in-out;
+        display: flex;
 
         &:hover {
           color: #68dcfc;
