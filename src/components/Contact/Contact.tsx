@@ -26,8 +26,8 @@ const Contact = () => {
           </div>
           <div className="info" data-aos="zoom-in-up">
             <h3>Mail</h3>
-            <a href="mailto: gracjanprusik@gmail.com">
-              gracjanprusik@gmail.com
+            <a href="mailto: gracjanprusik.web@gmail.com">
+              gracjanprusik.web@gmail.com
             </a>
           </div>
         </div>
