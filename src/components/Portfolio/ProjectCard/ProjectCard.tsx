@@ -21,7 +21,10 @@ const ProjectCard = ({
   order,
 }: ProjectCardProps) => {
   return (
-    <div className={order ? "project-card reverse" : "project-card"}>
+    <div
+      className={order ? "project-card reverse" : "project-card"}
+      data-aos={order ? "fade-left" : "fade-right"}
+    >
       <div className="card-left">
         <a href={live} target="_blank">
           <div

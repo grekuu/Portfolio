@@ -6,8 +6,10 @@ const Portfolio = () => {
   return (
     <div className="portfolio-container" id="projects">
       <Container className="content-container">
-        <h3>PORTFOLIO</h3>
-        <h2>Each project is a unique piece of development 🧩</h2>
+        <h3 data-aos="fade-up">PORTFOLIO</h3>
+        <h2 data-aos="fade-up">
+          Each project is a unique piece of development 🧩
+        </h2>
         <ProjectCard
           skills={["React", "Typescript", "Sass", "Bootstrap"]}
           title="MEDICAL SERVICE 👩‍⚕️"

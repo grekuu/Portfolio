@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div className="about-container" id="about">
       <Container className="content-container">
-        <div className="container-left">
+        <div className="container-left" data-aos="fade-up-right">
           <img src="/chill-programming.jpg" alt="image" />
         </div>
-        <div className="container-right">
+        <div className="container-right" data-aos="fade-up">
           <h3>ABOUT ME</h3>
           <h2>A dedicated Front-end Developer based in Szczecin, Poland 📍</h2>
           <p>

@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <div className="hero-container" id="home">
       <Container className="content-container">
-        <div className="container-left">
+        <div className="container-left" data-aos="fade-up">
           <h1>Front-End React Developer 👋🏻</h1>
           <p>
             Hi, I'm Gracjan Prusik. A passionate Front-end React Developer based
@@ -40,7 +40,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="container-right">
+        <div className="container-right" data-aos="fade-up">
           <img src="/React-icon.svg.png" alt="" />
         </div>
       </Container>
@@ -48,28 +48,28 @@ const Hero = () => {
         <div className="tech-stack">
           <span>Tech Stack</span>
           <div className="logos">
-            <div className="logo">
+            <div className="logo" data-aos="flip-up">
               <AiOutlineHtml5 />
             </div>
-            <div className="logo">
+            <div className="logo" data-aos="zoom-in-up">
               <TbBrandCss3 />
             </div>
-            <div className="logo">
+            <div className="logo" data-aos="zoom-in-up">
               <TbBrandJavascript />
             </div>
-            <div className="logo">
+            <div className="logo" data-aos="zoom-in-up">
               <BsBootstrap />
             </div>
-            <div className="logo">
+            <div className="logo" data-aos="zoom-in-up">
               <TbBrandTypescript />
             </div>
-            <div className="logo">
+            <div className="logo" data-aos="zoom-in-up">
               <BiLogoReact />
             </div>
-            <div className="logo">
+            <div className="logo" data-aos="zoom-in-up">
               <BiLogoRedux />
             </div>
-            <div className="logo">
+            <div className="logo" data-aos="zoom-in-up">
               <DiSass />
             </div>
           </div>
