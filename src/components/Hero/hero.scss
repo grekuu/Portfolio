@@ -116,6 +116,8 @@
 
 @media only screen and (max-width: 991px) {
   .hero-container {
+    height: auto;
+    padding: 50px 0px;
     .content-container {
       display: flex;
       justify-content: center;
@@ -125,7 +127,6 @@
       .container-left {
         width: 90%;
         text-align: center;
-        margin-top: 100px;
 
         h1 {
           font-size: 40px;
