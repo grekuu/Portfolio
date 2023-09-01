@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <Container className="content-container">
         <div className="container-left">
           <img src="/chill-programming.jpg" alt="image" />

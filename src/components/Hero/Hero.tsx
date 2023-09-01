@@ -16,7 +16,7 @@ import { BsBootstrap } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className="hero-container">
+    <div className="hero-container" id="home">
       <Container className="content-container">
         <div className="container-left">
           <h1>Front-End React Developer 👋🏻</h1>

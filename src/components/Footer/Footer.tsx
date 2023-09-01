@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="contact">
       <Container className="content-container">
         <div className="copyright">©{currentYear} All rights reserved.</div>
         <div className="socials">
