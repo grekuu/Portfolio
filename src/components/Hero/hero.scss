@@ -116,6 +116,7 @@
 
 @media only screen and (max-width: 991px) {
   .hero-container {
+    overflow-y: hidden;
     height: auto;
     padding: 50px 0px;
     .content-container {
