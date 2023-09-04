@@ -1,92 +1,92 @@
 .about-container {
-  max-width: 100vw;
-  overflow-x: hidden;
-  padding: 100px 0px 100px 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding: 100px 0px 100px 0px;
 
-  .content-container {
-    display: flex;
+    .content-container {
+        display: flex;
 
-    .container-left {
-      width: 50%;
-      padding-right: 25px;
-      display: flex;
-      align-items: center;
+        .container-left {
+            width: 50%;
+            padding-right: 25px;
+            display: flex;
+            align-items: center;
 
-      img {
-        max-width: 100%;
-        border-radius: 20px;
-      }
+            img {
+                max-width: 100%;
+                border-radius: 20px;
+            }
+        }
+        .container-right {
+            width: 50%;
+            padding: 0px 0px 0px 50px;
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-weight: bold;
+                font-size: 18px;
+                color: #68dcfc;
+                margin: 0 0 14px;
+            }
+
+            h2 {
+                font-size: 25px;
+                font-weight: 700;
+                margin: 0 0 14px;
+            }
+
+            p {
+                color: #767676;
+                font-size: 18px;
+            }
+        }
     }
-    .container-right {
-      width: 50%;
-      padding: 0px 0px 0px 50px;
-      display: flex;
-      flex-direction: column;
-
-      h3 {
-        font-weight: bold;
-        font-size: 18px;
-        color: #68dcfc;
-        margin: 0 0 14px;
-      }
-
-      h2 {
-        font-size: 25px;
-        font-weight: 700;
-        margin: 0 0 14px;
-      }
-
-      p {
-        color: #767676;
-        font-size: 18px;
-      }
-    }
-  }
 }
 
 @media only screen and (max-width: 1399px) {
-  .about-container {
-    .content-container {
-      .container-right {
-        h3 {
-          font-size: 14px;
+    .about-container {
+        .content-container {
+            .container-right {
+                h3 {
+                    font-size: 14px;
+                }
+                h2 {
+                    font-size: 21px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
         }
-        h2 {
-          font-size: 21px;
-        }
-        p {
-          font-size: 14px;
-        }
-      }
     }
-  }
 }
 
 @media only screen and (max-width: 991px) {
-  .about-container {
-    .content-container {
-      flex-direction: column;
+    .about-container {
+        .content-container {
+            flex-direction: column;
 
-      .container-left {
-        width: 100%;
-        padding: 0;
-      }
-      .container-right {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-        margin-top: 20px;
+            .container-left {
+                width: 100%;
+                padding: 0;
+            }
+            .container-right {
+                width: 100%;
+                padding: 0;
+                text-align: center;
+                margin-top: 20px;
 
-        h3 {
-          font-size: 18px;
+                h3 {
+                    font-size: 18px;
+                }
+                h2 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: 18px;
+                }
+            }
         }
-        h2 {
-          font-size: 25px;
-        }
-        p {
-          font-size: 18px;
-        }
-      }
     }
-  }
 }

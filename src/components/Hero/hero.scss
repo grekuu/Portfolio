@@ -1,155 +1,155 @@
 .hero-container {
-  max-width: 100vw;
-  overflow-x: hidden;
-  background-color: #f9f9f9;
-  height: 95vh;
-  padding-bottom: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  .content-container {
-    display: flex;
-
-    .container-left {
-      width: 50%;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-
-      h1 {
-        font-size: 50px;
-        font-weight: bold;
-        margin: 0 0 14px;
-        letter-spacing: 3px;
-      }
-
-      p {
-        color: #555;
-        font-size: 18px;
-
-        a {
-          color: #555;
-          font-size: 18px;
-          text-decoration: none;
-          transition: all 0.2s ease-in-out;
-          font-weight: 500;
-
-          &:hover {
-            color: #68dcfc;
-          }
-        }
-      }
-
-      .socials {
-        a {
-          color: black;
-          font-size: 30px;
-          margin-right: 10px;
-          transition: all 0.2s ease-in-out;
-
-          &:hover {
-            color: #68dcfc;
-          }
-        }
-      }
-    }
-    .container-right {
-      max-width: 50%;
-      display: flex;
-
-      justify-content: center;
-      img {
-        width: 65%;
-        animation: rotation 10s infinite linear;
-      }
-    }
-  }
-  .tech-stack {
-    margin-top: 50px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #f9f9f9;
+    height: 95vh;
+    padding-bottom: 90px;
     display: flex;
     align-items: center;
-    span {
-      border-right: 2px solid black;
-      color: black;
-      font-weight: 600;
-      margin-right: 30px;
-      padding-right: 20px;
-      font-size: 18px;
-    }
+    justify-content: center;
+    flex-direction: column;
 
-    .logos {
-      display: flex;
-      gap: 20px;
-      flex-flow: wrap;
-      .logo {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
-        cursor: pointer;
+    .content-container {
+        display: flex;
+
+        .container-left {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            h1 {
+                font-size: 50px;
+                font-weight: bold;
+                margin: 0 0 14px;
+                letter-spacing: 3px;
+            }
+
+            p {
+                color: #555;
+                font-size: 18px;
+
+                a {
+                    color: #555;
+                    font-size: 18px;
+                    text-decoration: none;
+                    transition: all 0.2s ease-in-out;
+                    font-weight: 500;
+
+                    &:hover {
+                        color: #68dcfc;
+                    }
+                }
+            }
+
+            .socials {
+                a {
+                    color: black;
+                    font-size: 30px;
+                    margin-right: 10px;
+                    transition: all 0.2s ease-in-out;
+
+                    &:hover {
+                        color: #68dcfc;
+                    }
+                }
+            }
+        }
+        .container-right {
+            max-width: 50%;
+            display: flex;
+
+            justify-content: center;
+            img {
+                width: 65%;
+                animation: rotation 10s infinite linear;
+            }
+        }
+    }
+    .tech-stack {
+        margin-top: 50px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        font-size: 40px;
-        color: #68dcfc;
-        transition: 150ms ease-in-out;
-
-        &:hover {
-          color: white;
-          background-color: #68dcfc;
+        span {
+            border-right: 2px solid black;
+            color: black;
+            font-weight: 600;
+            margin-right: 30px;
+            padding-right: 20px;
+            font-size: 18px;
         }
-      }
+
+        .logos {
+            display: flex;
+            gap: 20px;
+            flex-flow: wrap;
+            .logo {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 40px;
+                color: #68dcfc;
+                transition: 150ms ease-in-out;
+
+                &:hover {
+                    color: white;
+                    background-color: #68dcfc;
+                }
+            }
+        }
     }
-  }
 }
 
 @keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
 
 @media only screen and (max-width: 991px) {
-  .hero-container {
-    overflow-y: hidden;
-    height: auto;
-    padding: 50px 0px;
-    .content-container {
-      display: flex;
-      justify-content: center;
-      .container-right {
-        display: none;
-      }
-      .container-left {
-        width: 90%;
-        text-align: center;
+    .hero-container {
+        overflow-y: hidden;
+        height: auto;
+        padding: 50px 0px;
+        .content-container {
+            display: flex;
+            justify-content: center;
+            .container-right {
+                display: none;
+            }
+            .container-left {
+                width: 90%;
+                text-align: center;
 
-        h1 {
-          font-size: 40px;
+                h1 {
+                    font-size: 40px;
+                }
+            }
         }
-      }
-    }
-    .tech-stack {
-      display: flex;
-      flex-direction: column;
+        .tech-stack {
+            display: flex;
+            flex-direction: column;
 
-      .logos {
-        justify-content: center;
-      }
+            .logos {
+                justify-content: center;
+            }
 
-      span {
-        border-bottom: 2px solid black;
-        border-right: 0;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-      }
+            span {
+                border-bottom: 2px solid black;
+                border-right: 0;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 20px;
+                padding-bottom: 10px;
+            }
+        }
     }
-  }
 }

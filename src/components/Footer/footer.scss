@@ -1,32 +1,32 @@
 .footer-container {
-  max-width: 100vw;
-  overflow-x: hidden;
-  background-color: #001427;
-  padding: 50px 0px;
-  color: white;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #001427;
+    padding: 50px 0px;
+    color: white;
 
-  .content-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    .copyright {
-      font-size: 18px;
-      font-weight: 500;
-    }
-    .socials {
-      display: flex;
-      a {
-        color: white;
-        font-size: 30px;
-        margin-right: 10px;
-        transition: all 0.2s ease-in-out;
+    .content-container {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
 
-        &:hover {
-          color: #68dcfc;
+        .copyright {
+            font-size: 18px;
+            font-weight: 500;
         }
-      }
+        .socials {
+            display: flex;
+            a {
+                color: white;
+                font-size: 30px;
+                margin-right: 10px;
+                transition: all 0.2s ease-in-out;
+                display: flex;
+
+                &:hover {
+                    color: #68dcfc;
+                }
+            }
+        }
     }
-  }
 }
